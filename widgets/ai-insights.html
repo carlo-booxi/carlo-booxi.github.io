@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Client Insights - Booxi UI UX Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../ai-insights/ai-insight.css">
+    <link rel="stylesheet" href="widget-showcase.css">
+    <!-- Preload filled icon variations -->
+    <link rel="preload" href="../ai-insights/icons/thumbs_up_fill.svg" as="image">
+    <link rel="preload" href="../ai-insights/icons/thumbs_down_fill.svg" as="image">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="widget-header">
+            <div class="header-content">
+                <a href="../index.html" class="back-link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M12 16L6 10L12 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Back to Home
+                </a>
+                <h1 class="main-title">AI Client Insights</h1>
+                <p class="subtitle">Intelligent recommendations powered by AI to enhance client interactions</p>
+                
+                <div class="widget-meta">
+                    <div class="meta-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Feedback</span>
+                        <span class="tag">Interactive</span>
+                        <span class="tag">Expandable</span>
+                    </div>
+                    <a href="https://github.com/booxi" class="view-source-btn" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M8 1C4.13 1 1 4.13 1 8c0 3.09 2.01 5.71 4.79 6.64.35.06.48-.15.48-.33v-1.16c-1.95.42-2.36-.94-2.36-.94-.32-.81-.78-1.03-.78-1.03-.64-.44.05-.43.05-.43.7.05 1.07.72 1.07.72.63 1.08 1.65.77 2.05.59.06-.46.24-.77.44-.95-1.57-.18-3.22-.79-3.22-3.51 0-.78.28-1.41.73-1.91-.07-.18-.32-.89.07-1.85 0 0 .59-.19 1.94.73A6.73 6.73 0 018 4.58c.6 0 1.21.08 1.78.24 1.35-.92 1.94-.73 1.94-.73.39.96.14 1.67.07 1.85.45.5.73 1.13.73 1.91 0 2.73-1.66 3.33-3.24 3.5.25.22.48.65.48 1.31v1.94c0 .19.13.4.48.33C12.99 13.71 15 11.09 15 8c0-3.87-3.13-7-7-7z" fill="currentColor"/>
+                        </svg>
+                        View Source
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Description Section -->
+        <section class="description-section">
+            <div class="description-content">
+                <h2 class="section-heading">Overview</h2>
+                <p>
+                    The AI Client Insights component provides intelligent, contextual information to help sales 
+                    associates better understand and serve their clients. By analyzing client behavior and preferences, 
+                    the system generates actionable insights in real-time.
+                </p>
+                
+                <h3 class="feature-heading">Key Features</h3>
+                <ul class="feature-list">
+                    <li><strong>Dynamic Content:</strong> Automatically adjusts layout based on content length</li>
+                    <li><strong>Read More/Less:</strong> Expandable text sections with smooth transitions</li>
+                    <li><strong>User Feedback:</strong> Interactive thumbs up/down with visual confirmation</li>
+                    <li><strong>Tooltips:</strong> Helpful information on hover for additional context</li>
+                    <li><strong>Accessibility:</strong> Fully keyboard navigable with proper ARIA labels</li>
+                    <li><strong>Responsive Design:</strong> Adapts seamlessly to different screen sizes</li>
+                </ul>
+                
+                <h3 class="feature-heading">Use Cases</h3>
+                <ul class="feature-list">
+                    <li>Retail appointment preparation and client profiling</li>
+                    <li>Cross-selling and upselling recommendations</li>
+                    <li>Client preference tracking and analysis</li>
+                    <li>Real-time behavioral insights during appointments</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Live Demo Section -->
+        <section class="demo-section">
+            <div class="section-header">
+                <h2 class="section-heading">Live Demo</h2>
+                <p class="section-subheading">Interact with the component to see all features in action</p>
+            </div>
+            
+            <div class="demo-container">
+                <!-- Example 1: Short text -->
+                <div class="ai-insight">
+                    <div class="insight-header">
+                        <div class="title-section">
+                            <div class="sparkle-icon">
+                                <img src="../ai-insights/icons/badge_sparkles_clear.svg" alt="Sparkles" width="20" height="20">
+                            </div>
+                            <h3 class="insight-title">Cross sell opportunity</h3>
+                            <div class="info-tooltip">
+                                <button class="info-button">
+                                    <img src="../ai-insights/icons/badge_info_outline.svg" alt="Info" width="20" height="20" class="info-icon">
+                                </button>
+                                <div class="tooltip-content">
+                                    AI generated results may sometimes be inaccurate.
+                                </div>
+                            </div>
+                        </div>
+                        <p class="insight-description">Client browsed both Bracelets and Earrings.</p>
+                    </div>
+                    
+                    <div class="insight-content">
+                        <div class="content-section">
+                            <h4 class="section-title">Decisiveness</h4>
+                            <p class="section-text">Client browsed several different categories, no preference.</p>
+                        </div>
+                        
+                        <div class="content-section">
+                            <h4 class="section-title">Product Interest</h4>
+                            <ul class="product-list">
+                                <li><strong>Bracelets:</strong> Tiffany HardWear Link Bracelet (Viewed multiple times)</li>
+                                <li><strong>Earrings:</strong> Tiffany Victoria Diamond Studs (Viewed once)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="feedback-section">
+                        <p class="feedback-question">Was this insight helpful?</p>
+                        <div class="feedback-buttons">
+                            <button class="feedback-btn thumbs-up" data-feedback="like">
+                                <img src="../ai-insights/icons/thumbs_up.svg" alt="Thumbs Up" width="20" height="20" class="thumbs-up-icon">
+                            </button>
+                            <button class="feedback-btn thumbs-down" data-feedback="dislike">
+                                <img src="../ai-insights/icons/thumbs_down.svg" alt="Thumbs Down" width="20" height="20" class="thumbs-down-icon">
+                            </button>
+                        </div>
+                        <div class="feedback-message"></div>
+                    </div>
+                </div>
+
+                <!-- Example 2: Long text with Read More -->
+                <div class="ai-insight">
+                    <div class="insight-header">
+                        <div class="title-section">
+                            <div class="sparkle-icon">
+                                <img src="../ai-insights/icons/badge_sparkles_clear.svg" alt="Sparkles" width="20" height="20">
+                            </div>
+                            <h3 class="insight-title">High-value client profile</h3>
+                            <div class="info-tooltip">
+                                <button class="info-button">
+                                    <img src="../ai-insights/icons/badge_info_outline.svg" alt="Info" width="20" height="20" class="info-icon">
+                                </button>
+                                <div class="tooltip-content">
+                                    AI generated results may sometimes be inaccurate.
+                                </div>
+                            </div>
+                        </div>
+                        <p class="insight-description">Client shows strong purchase intent based on browsing behavior.</p>
+                    </div>
+                    
+                    <div class="insight-content">
+                        <div class="content-section">
+                            <h4 class="section-title">Behavioral Analysis</h4>
+                            <div class="text-container">
+                                <p class="section-text">This client has demonstrated consistent engagement with premium product categories over the past three months. Their browsing patterns indicate a preference for high-quality materials and exclusive designs. Recent activity shows focused attention on limited edition items and new arrivals. The client typically spends 15-20 minutes per session exploring product details, suggesting thorough consideration before purchase. Historical data indicates higher conversion rates when personalized recommendations are presented early in the appointment.</p>
+                                <button class="read-more-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="feedback-section">
+                        <p class="feedback-question">Was this insight helpful?</p>
+                        <div class="feedback-buttons">
+                            <button class="feedback-btn thumbs-up" data-feedback="like">
+                                <img src="../ai-insights/icons/thumbs_up.svg" alt="Thumbs Up" width="20" height="20" class="thumbs-up-icon">
+                            </button>
+                            <button class="feedback-btn thumbs-down" data-feedback="dislike">
+                                <img src="../ai-insights/icons/thumbs_down.svg" alt="Thumbs Down" width="20" height="20" class="thumbs-down-icon">
+                            </button>
+                        </div>
+                        <div class="feedback-message"></div>
+                    </div>
+                </div>
+
+                <!-- Example 3: Simple insight -->
+                <div class="ai-insight">
+                    <div class="insight-header">
+                        <div class="title-section">
+                            <div class="sparkle-icon">
+                                <img src="../ai-insights/icons/badge_sparkles_clear.svg" alt="Sparkles" width="20" height="20">
+                            </div>
+                            <h3 class="insight-title">First-time visitor</h3>
+                            <div class="info-tooltip">
+                                <button class="info-button">
+                                    <img src="../ai-insights/icons/badge_info_outline.svg" alt="Info" width="20" height="20" class="info-icon">
+                                </button>
+                                <div class="tooltip-content">
+                                    AI generated results may sometimes be inaccurate.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="insight-content">
+                        <p class="simple-description">Exploration needed, client booked without showing clear product interest online.</p>
+                    </div>
+                    
+                    <div class="feedback-section">
+                        <p class="feedback-question">Was this insight helpful?</p>
+                        <div class="feedback-buttons">
+                            <button class="feedback-btn thumbs-up" data-feedback="like">
+                                <img src="../ai-insights/icons/thumbs_up.svg" alt="Thumbs Up" width="20" height="20" class="thumbs-up-icon">
+                            </button>
+                            <button class="feedback-btn thumbs-down" data-feedback="dislike">
+                                <img src="../ai-insights/icons/thumbs_down.svg" alt="Thumbs Down" width="20" height="20" class="thumbs-down-icon">
+                            </button>
+                        </div>
+                        <div class="feedback-message"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Booxi. All rights reserved.</p>
+            <a href="../index.html" class="footer-link">Home</a>
+        </footer>
+    </div>
+
+    <script src="../ai-insights/ai-insight.js"></script>
+</body>
+</html>
+
